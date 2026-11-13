@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>8 Coding Concepts</title>
+<link rel="icon" type="image/svg+xml" href="https://pph.name.ng/pphlogo.svg">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ==================== READING PROGRESS ==================== -->
+<div class="reading-progress">
+  <div class="reading-progress-fill"></div>
+</div>
+<div class="page-indicator">1 / 14</div>
+
+<!-- ==================== PAGE 1: COVER ==================== -->
+<section class="book-page cover-page active" id="cover" data-page-index="0">
+  <div class="cover-content">
+    <div class="cover-emoji-row">🧠 🥪 🐛</div>
+    <p class="cover-series">A Beginner's Book</p>
+    <h1>8 Coding Concepts</h1>
+    <p class="cover-subtitle">Eight everyday superpowers<br>for young coders and their grown-up helpers</p>
+    <p class="cover-author">Ages 5 - 7</p>
+    <p class="cover-note">
+      Eight concepts.<br>
+      Zero computers.<br>
+      One everyday superpower at a time.
+    </p>
+    <nav class="book-nav">
+      <button class="nav-button" onclick="goToPage(1)">Begin the Journey →</button>
+    </nav>
+    <p class="cover-credit">
+      By<br>
+      <a href="https://agunechemba.name.ng" target="_blank" rel="noopener">Agunechemba Ekene</a>
+    </p>
+  </div>
+</section>
+
+<!-- ==================== PAGE 2: TABLE OF CONTENTS ==================== -->
+<section class="book-page toc-page" id="toc" data-page-index="1">
+  <div class="toc-intro">
+    <h2>📖 What is inside</h2>
+    <p>An introduction, eight concepts, one big takeaway.</p>
+  </div>
+
+  <h3>Welcome</h3>
+  <ol>
+    <li><a href="#" data-goto="2">Introduction — Hello, Little Coder!</a></li>
+  </ol>
+
+  <h3>Part One · Coding Superpowers</h3>
+  <ol style="counter-reset: chapter 1;">
+    <li><a href="#" data-goto="4">Algorithm 🥪</a></li>
+    <li><a href="#" data-goto="5">Sequence 📖</a></li>
+    <li><a href="#" data-goto="6">Debugging 🐛</a></li>
+    <li><a href="#" data-goto="7">Loop 🔁</a></li>
+    <li><a href="#" data-goto="8">Branch (If / Then) 🌳</a></li>
+    <li><a href="#" data-goto="9">Decomposition 🧩</a></li>
+    <li><a href="#" data-goto="10">Function 🎁</a></li>
+    <li><a href="#" data-goto="11">Variables 📦</a></li>
+  </ol>
+
+  <h3>Wrap-up</h3>
+  <ol style="counter-reset: chapter 9;">
+    <li><a href="#" data-goto="12">The Big Takeaway 🌟</a></li>
+  </ol>
+
+  <nav class="book-nav">
+    <button class="nav-button secondary" onclick="goToPage(0)">← Cover</button>
+    <button class="nav-button" onclick="goToPage(2)">Introduction →</button>
+  </nav>
+</section>
+
+<!-- ==================== PAGE 3: INTRODUCTION ==================== -->
+<section class="book-page chapter-page" id="intro" data-page-index="2">
+  <div class="chapter-header">
+    <p class="chapter-part">Introduction</p>
+    <h2>Hello, Little Coder!</h2>
+    <p class="chapter-tagline">A coder is someone who tells a computer what to do.</p>
+  </div>
+
+  <div class="chapter-story">
+    <p>
+      A <strong>coder</strong> is someone who tells a computer what to do. A computer is a
+      machine that only does <em>exactly</em> what you say.
+    </p>
+    <p>
+      Guess what? You are <strong>already a coder!</strong> Every day you follow steps, keep them
+      in order, fix mistakes, repeat things, make choices, break big jobs into little ones,
+      give whole jobs a name, and keep things in labeled boxes — the eight big ideas in this book.
+    </p>
+    <p>
+      Let us learn the eight words for those superpowers, with simple games you can play with
+      your class. No computer needed — just your brain, your friends, and your everyday routines. 🙌
+    </p>
+  </div>
+
+  <div class="chapter-ideas">
+    <h3>Key Ideas</h3>
+    <ul>
+      <li>A <strong>coder</strong> tells a computer what to do.</li>
+      <li>A computer does exactly what you say — no more, no less.</li>
+      <li>You already do coder things every day.</li>
+      <li>Eight ideas, no computer required.</li>
+    </ul>
+  </div>
+
+  <div class="chapter-questions">
+    <h3>Try It Yourself</h3>
+    <ol>
+      <li>What is a coder?
+        <details><summary>Show answer</summary><p>Someone who tells a computer what to do.</p></details>
+      </li>
+      <li>Do you need a computer to practice these eight ideas?
+        <details><summary>Show answer</summary><p>No — every activity in this book works with just your brain, your friends, and your everyday routines.</p></details>
+      </li>
+      <li>Name one thing you do every day that is like coding.
+        <details><summary>Show answer</summary><p>Any routine with steps works — getting dressed, brushing your teeth, packing your backpack.</p></details>
+      </li>
+    </ol>
+  </div>
+
+  <nav class="book-nav">
+    <button class="nav-button secondary" onclick="goToPage(1)">← Contents</button>
+    <button class="nav-button" onclick="goToPage(3)">Part One →</button>
+  </nav>
+</section>
+
+<!-- ==================== PAGE 4: PART ONE DIVIDER ==================== -->
+<section class="book-page cover-page part-page part-one" id="part-one" data-page-index="3">
+  <div class="cover-content">
+    <p class="part-number">Part One</p>
+    <h1>Coding Superpowers</h1>
+    <p class="part-desc">
+      Eight everyday ideas that are also the building blocks of every program ever written.
+      You already use them — now let us learn their names.
+    </p>
+    <nav class="book-nav">
+      <button class="nav-button" onclick="goToPage(4)">Begin Chapter 1 →</button>
+    </nav>
+  </div>
+</section>
+
+<!-- ==================== PAGE 5: CHAPTER 1 — ALGORITHM ==================== -->
+<section class="book-page chapter-page" id="ch-algorithm" data-page-index="4">
+  <div class="chapter-header">
+    <p class="chapter-part">Part One · Coding Superpowers · Chapter 1</p>
+    <h2>Algorithm 🥪</h2>
+    <p class="chapter-tagline">Steps in order to get something done.</p>
+  </div>
+
+  <div class="chapter-story">
+    <p>
+      An <strong>algorithm</strong> is just a <strong>list of steps</strong> you do in order to
+      finish a job. It is like a recipe: if you skip a step, or do it in the wrong order, the job
+      does not work.
+    </p>
+    <p>
+      <strong>Try it in your head:</strong> Can you put jelly on bread <em>before</em> you open
+      the jar? Nope! The jar is closed! That is why the steps and their order both matter.
+    </p>
+    <p>
+      Making a peanut butter and jelly sandwich is a perfect everyday example — the steps are
+      your algorithm:
+    </p>
+    <ol class="steps">
+      <li>Open the bread bag 🍞</li>
+      <li>Take out two slices</li>
+      <li>Get the peanut butter 🥜</li>
+      <li>Spread it</li>
+      <li>Get the jelly 🍓</li>
+      <li>Spread it</li>
+      <li>Put the slices together</li>
+    </ol>
+    <p>
+      You already follow algorithms every day — getting dressed, brushing your teeth, feeding a
+      pet. The trick is that every step has to come in the right order.
+    </p>
+  </div>
+
+  <div class="chapter-ideas">
+    <h3>Key Ideas</h3>
+    <ul>
+      <li>An <strong>algorithm</strong> is a list of steps in order.</li>
+      <li>The steps must be complete — if you skip one, the job breaks.</li>
+      <li>The order matters — jelly before opening the jar just does not work.</li>
+      <li>You already follow algorithms every day.</li>
+    </ul>
+  </div>
+
+  <div class="chapter-questions">
+    <h3>Try It Yourself</h3>
+    <ol>
+      <li>What is an algorithm?
+        <details><summary>Show answer</summary><p>A list of steps you follow in order to finish a job. 📋</p></details>
+      </li>
+      <li>What happens if you forget a step, like opening the jelly jar?
+        <details><summary>Show answer</summary><p>The whole thing breaks — you cannot spread jelly from a closed jar. 🍓</p></details>
+      </li>
+      <li>Tell an algorithm for washing your hands. How many steps does it have?
+        <details><summary>Show answer</summary><p>Any answer with steps in order works — e.g., turn on the water, get soap, rub, rinse, dry. Count them together!</p></details>
+      </li>
+    </ol>
+  </div>
+
+  <nav class="book-nav">
+    <button class="nav-button secondary" onclick="goToPage(3)">← Coding Superpowers</button>
+    <button class="nav-button" onclick="goToPage(5)">Chapter 2: Sequence →</button>
+  </nav>
+</section>
+
+<!-- ==================== PAGE 6: CHAPTER 2 — SEQUENCE ==================== -->
+<section class="book-page chapter-page" id="ch-sequence" data-page-index="5">
+  <div class="chapter-header">
+    <p class="chapter-part">Part One · Coding Superpowers · Chapter 2</p>
+    <h2>Sequence 📖</h2>
+    <p class="chapter-tagline">The order of the steps matters.</p>
+  </div>
+
+  <div class="chapter-story">
+    <p>
+      <strong>Sequence</strong> means the <strong>order</strong> of things. If you change the
+      order, you change the story. Would you put on your shoes <em>before</em> your socks? That
+      would be silly! The order is the code — change it and the code does something different.
+    </p>
+    <p>
+      Stories have a sequence too: a <strong>beginning</strong>, a <strong>middle</strong>, and
+      an <strong>end</strong>. If you mix it up and start with the end, it does not make sense —
+      like eating dessert before dinner. 🍰
+    </p>
+    <p>
+      Algorithms teach you the steps; sequence reminds you that the <em>order</em> of those steps
+      is just as important as the steps themselves.
+    </p>
+  </div>
+
+  <div class="chapter-ideas">
+    <h3>Key Ideas</h3>
+    <ul>
+      <li><strong>Sequence</strong> is the order of the steps.</li>
+      <li>Change the order and the result changes.</li>
+      <li>Stories have sequence too — beginning, middle, end.</li>
+      <li>Socks before shoes, always.</li>
+    </ul>
+  </div>
+
+  <div class="chapter-questions">
+    <h3>Try It Yourself</h3>
+    <ol>
+      <li>What does "sequence" mean?
+        <details><summary>Show answer</summary><p>The order of the steps — what comes first, next, and last. 🔢</p></details>
+      </li>
+      <li>What happens to a story if the order is wrong?
+        <details><summary>Show answer</summary><p>It gets confusing and silly — it does not make sense anymore. 🤪</p></details>
+      </li>
+      <li>Shoes or socks first? Why?
+        <details><summary>Show answer</summary><p>Socks first, then shoes! Otherwise your socks will not fit right. 🧦👟</p></details>
+      </li>
+    </ol>
+  </div>
+
+  <nav class="book-nav">
+    <button class="nav-button secondary" onclick="goToPage(4)">← Chapter 1: Algorithm</button>
+    <button class="nav-button" onclick="goToPage(6)">Chapter 3: Debugging →</button>
+  </nav>
+</section>
+
+<!-- ==================== PAGE 7: CHAPTER 3 — DEBUGGING ==================== -->
+<section class="book-page chapter-page" id="ch-debugging" data-page-index="6">
+  <div class="chapter-header">
+    <p class="chapter-part">Part One · Coding Superpowers · Chapter 3</p>
+    <h2>Debugging 🐛</h2>
+    <p class="chapter-tagline">Finding a mistake and fixing it.</p>
+  </div>
+
+  <div class="chapter-story">
+    <p>
+      A <strong>bug</strong> is a mistake in your steps. <strong>Debugging</strong> means
+      <strong>finding the bug and fixing it</strong>.
+    </p>
+    <p>
+      Bugs are <em>not</em> bad. Every coder makes them — even grown-up coders who build rockets.
+      When something goes wrong, you do not get mad. You look for the bug, fix it, and try
+      again. That is the superpower.
+    </p>
+    <p>
+      Here is an everyday bug: you put your shoes on the <strong>wrong feet</strong>. Ouch — that
+      feels funny! You look down and spot the mistake (finding the bug), swap the shoes (fixing
+      the bug), and now they feel right (bug gone). Other everyday bugs: your block tower falls
+      down 🧱, your zipper gets stuck 🤐, a puzzle piece does not fit 🧩. You already know how
+      to debug — now you know the word.
+    </p>
+  </div>
+
+  <div class="chapter-ideas">
+    <h3>Key Ideas</h3>
+    <ul>
+      <li>A <strong>bug</strong> is a mistake in the steps.</li>
+      <li><strong>Debugging</strong> is finding and fixing the bug.</li>
+      <li>Mistakes are normal — even rocket scientists make them.</li>
+      <li>The move is: look, fix, try again.</li>
+    </ul>
+  </div>
+
+  <div class="chapter-questions">
+    <h3>Try It Yourself</h3>
+    <ol>
+      <li>What is a bug?
+        <details><summary>Show answer</summary><p>A mistake in the steps. 🐛</p></details>
+      </li>
+      <li>Is it bad to make a mistake?
+        <details><summary>Show answer</summary><p>No! Everybody makes bugs — even grown-up coders. Mistakes help us learn. 💪</p></details>
+      </li>
+      <li>Tell about a time you fixed a bug today.
+        <details><summary>Show answer</summary><p>Any answer works — a stuck zipper, a fallen tower, a mixed-up sock. Praise the <em>fixing</em>, not just the result. 🌟</p></details>
+      </li>
+    </ol>
+  </div>
+
+  <nav class="book-nav">
+    <button class="nav-button secondary" onclick="goToPage(5)">← Chapter 2: Sequence</button>
+    <button class="nav-button" onclick="goToPage(7)">Chapter 4: Loop →</button>
+  </nav>
+</section>
+
+<!-- ==================== PAGE 8: CHAPTER 4 — LOOP ==================== -->
+<section class="book-page chapter-page" id="ch-loop" data-page-index="7">
+  <div class="chapter-header">
+    <p class="chapter-part">Part One · Coding Superpowers · Chapter 4</p>
+    <h2>Loop 🔁</h2>
+    <p class="chapter-tagline">Doing the same thing again and again until you stop.</p>
+  </div>
+
+  <div class="chapter-story">
+    <p>
+      A <strong>loop</strong> is when you do something <strong>over and over</strong>. It keeps
+      going until something tells it to <strong>stop</strong>.
+    </p>
+    <p>
+      Like a song you sing again and again. Or turning the pages of a book — flip, flip, flip —
+      until you reach the very last page. That is your <strong>stopping point</strong>.
+    </p>
+    <p>
+      Your school day is full of loops: walking to specials class, eating a sandwich, taking a
+      shower, the calendar routine every morning, the clean-up song at the end of centers. Each
+      one happens again and again — just like a loop in a computer.
+    </p>
+  </div>
+
+  <div class="chapter-ideas">
+    <h3>Key Ideas</h3>
+    <ul>
+      <li>A <strong>loop</strong> repeats the same steps.</li>
+      <li>Every loop needs a <strong>stopping condition</strong>.</li>
+      <li>Your day is full of loops — eating, walking, singing.</li>
+      <li>The stopping condition is what ends the loop.</li>
+    </ul>
+  </div>
+
+  <div class="chapter-questions">
+    <h3>Try It Yourself</h3>
+    <ol>
+      <li>What is a loop?
+        <details><summary>Show answer</summary><p>Doing the same thing again and again until something tells you to stop. 🔁</p></details>
+      </li>
+      <li>Name one loop you do every single day.
+        <details><summary>Show answer</summary><p>Brushing teeth, eating breakfast, singing the clean-up song — lots of answers work! 🪥</p></details>
+      </li>
+      <li>What is a "stopping condition"?
+        <details><summary>Show answer</summary><p>The thing that makes the loop stop — like the bell ringing or the song ending. 🛑</p></details>
+      </li>
+    </ol>
+  </div>
+
+  <nav class="book-nav">
+    <button class="nav-button secondary" onclick="goToPage(6)">← Chapter 3: Debugging</button>
+    <button class="nav-button" onclick="goToPage(8)">Chapter 5: Branch →</button>
+  </nav>
+</section>
+
+<!-- ==================== PAGE 9: CHAPTER 5 — BRANCH ==================== -->
+<section class="book-page chapter-page" id="ch-branch" data-page-index="8">
+  <div class="chapter-header">
+    <p class="chapter-part">Part One · Coding Superpowers · Chapter 5</p>
+    <h2>Branch (If / Then) 🌳</h2>
+    <p class="chapter-tagline">If this happens, then I do that.</p>
+  </div>
+
+  <div class="chapter-story">
+    <p>
+      A <strong>branch</strong> is a <strong>choice</strong>. It is an "if / then" thought:
+    </p>
+    <p style="text-align:center; font-style:italic; margin: 18px 0;">
+      <strong>IF</strong> it is raining 🌧️, <strong>THEN</strong> I bring my umbrella ☂️.<br>
+      <strong>IF</strong> I am hungry 🍎, <strong>THEN</strong> I eat a snack.
+    </p>
+    <p>
+      It is like a path that splits into two — you pick one. You do this all day long, and you
+      are really good at it.
+    </p>
+    <p>
+      Think about a normal school day. What if it is raining at recess — what happens then? We
+      stay inside! What if you forgot your lunchbox — what do you do? We ask for help! Those
+      "what if" questions are branching statements.
+    </p>
+  </div>
+
+  <div class="chapter-ideas">
+    <h3>Key Ideas</h3>
+    <ul>
+      <li>A <strong>branch</strong> is an "if / then" choice.</li>
+      <li>The path splits into two — you pick one.</li>
+      <li>You make branching decisions all day.</li>
+      <li>"What if" questions create branches.</li>
+    </ul>
+  </div>
+
+  <div class="chapter-questions">
+    <h3>Try It Yourself</h3>
+    <ol>
+      <li>What does "if / then" mean?
+        <details><summary>Show answer</summary><p>It means making a choice: IF something happens, THEN I do something. 🌳</p></details>
+      </li>
+      <li>Finish this: "IF I am sleepy, THEN…"
+        <details><summary>Show answer</summary><p>…THEN I go to sleep! 😴 (Any sensible "then" works.)</p></details>
+      </li>
+      <li>Make up your own "if / then" about school.
+        <details><summary>Show answer</summary><p>For example: "IF the bell rings, THEN we line up." Great branching logic! 🔔</p></details>
+      </li>
+    </ol>
+  </div>
+
+  <nav class="book-nav">
+    <button class="nav-button secondary" onclick="goToPage(7)">← Chapter 4: Loop</button>
+    <button class="nav-button" onclick="goToPage(9)">Chapter 6: Decomposition →</button>
+  </nav>
+</section>
+
+<!-- ==================== PAGE 10: CHAPTER 6 — DECOMPOSITION ==================== -->
+<section class="book-page chapter-page" id="ch-decomposition" data-page-index="9">
+  <div class="chapter-header">
+    <p class="chapter-part">Part One · Coding Superpowers · Chapter 6</p>
+    <h2>Decomposition 🧩</h2>
+    <p class="chapter-tagline">Break a big job into little jobs.</p>
+  </div>
+
+  <div class="chapter-story">
+    <p>
+      <strong>Decomposition</strong> is a big word that means <strong>breaking a big job into
+      small pieces</strong>. Small pieces are much easier to do.
+    </p>
+    <p>
+      A whole pizza is too big to eat in one bite — so we cut it into slices. That is
+      decomposition. Big job → little steps → all done.
+    </p>
+    <p>
+      A grown-up says, "Just tie your shoe." But your shoe has lots of hidden little steps:
+    </p>
+    <ol class="steps">
+      <li>Cross the laces 👟</li>
+      <li>Make a loop 🌀</li>
+      <li>Wrap the other lace around</li>
+      <li>Pull it through</li>
+      <li>Tighten it ✨</li>
+    </ol>
+    <p>Breaking "tie your shoe" into small pieces is decomposition.</p>
+  </div>
+
+  <div class="chapter-ideas">
+    <h3>Key Ideas</h3>
+    <ul>
+      <li><strong>Decomposition</strong> means breaking a big job into small pieces.</li>
+      <li>Small pieces are easier than one big job.</li>
+      <li>A pizza slice is decomposition of the pizza.</li>
+      <li>Even "easy" jobs like shoe-tying have hidden steps.</li>
+    </ul>
+  </div>
+
+  <div class="chapter-questions">
+    <h3>Try It Yourself</h3>
+    <ol>
+      <li>What does "decomposition" mean in kid words?
+        <details><summary>Show answer</summary><p>Breaking a big job into little, easy pieces. 🧩</p></details>
+      </li>
+      <li>Why is a big job easier when you break it up?
+        <details><summary>Show answer</summary><p>Because each little piece is small and easy to do — you do not have to do it all at once! 😊</p></details>
+      </li>
+      <li>Break "getting ready for bed" into at least three little steps.
+        <details><summary>Show answer</summary><p>For example: put on pajamas 🩳, brush teeth 🪥, read a story 📚. Any three in order work!</p></details>
+      </li>
+    </ol>
+  </div>
+
+  <nav class="book-nav">
+    <button class="nav-button secondary" onclick="goToPage(8)">← Chapter 5: Branch</button>
+    <button class="nav-button" onclick="goToPage(10)">Chapter 7: Function →</button>
+  </nav>
+</section>
+
+<!-- ==================== PAGE 11: CHAPTER 7 — FUNCTION ==================== -->
+<section class="book-page chapter-page" id="ch-function" data-page-index="10">
+  <div class="chapter-header">
+    <p class="chapter-part">Part One · Coding Superpowers · Chapter 7</p>
+    <h2>Function 🎁</h2>
+    <p class="chapter-tagline">One name for a whole bunch of steps.</p>
+  </div>
+
+  <div class="chapter-story">
+    <p>
+      A <strong>function</strong> is a <strong>bunch of steps with one name</strong>. You say the
+      name, and all the steps happen — like magic.
+    </p>
+    <p>
+      Think of it as a present with a label on it. The label is short, but there is a whole lot
+      inside. You do not have to say every step — you just say the name.
+    </p>
+    <p>
+      Your teacher says one little word: <strong>"Clean up!"</strong> 🧹 But that one word
+      really means:
+    </p>
+    <ol class="steps">
+      <li>Stop playing 🛑</li>
+      <li>Put the toys in the bins 🧸</li>
+      <li>Push in the chairs 🪑</li>
+      <li>Sit on the rug 🌈</li>
+    </ol>
+    <p>
+      Four steps! One name! That is a function. Other magic names at school: "Line up!",
+      "Wash hands!", "Get your coat!" — all short names for whole batches of steps.
+    </p>
+  </div>
+
+  <div class="chapter-ideas">
+    <h3>Key Ideas</h3>
+    <ul>
+      <li>A <strong>function</strong> is a group of steps with a single name.</li>
+      <li>Say the name and all the steps happen.</li>
+      <li>"Clean up!", "Line up!", "Wash hands!" are functions.</li>
+      <li>Functions save time — one word instead of many.</li>
+    </ul>
+  </div>
+
+  <div class="chapter-questions">
+    <h3>Try It Yourself</h3>
+    <ol>
+      <li>What is a function?
+        <details><summary>Show answer</summary><p>A bunch of steps with one name. Say the name and all the steps happen. 🎁</p></details>
+      </li>
+      <li>When your teacher says "Clean up!", what steps does that one name really mean?
+        <details><summary>Show answer</summary><p>Stop playing, put toys away, push in chairs, sit on the rug — and maybe more! 🧹</p></details>
+      </li>
+      <li>Can you make up a name for a bunch of steps? What does your name mean?
+        <details><summary>Show answer</summary><p>Any invented name with 2–3 agreed steps works. Try it as a class! 🍌</p></details>
+      </li>
+    </ol>
+  </div>
+
+  <nav class="book-nav">
+    <button class="nav-button secondary" onclick="goToPage(9)">← Chapter 6: Decomposition</button>
+    <button class="nav-button" onclick="goToPage(11)">Chapter 8: Variables →</button>
+  </nav>
+</section>
+
+<!-- ==================== PAGE 12: CHAPTER 8 — VARIABLES ==================== -->
+<section class="book-page chapter-page" id="ch-variables" data-page-index="11">
+  <div class="chapter-header">
+    <p class="chapter-part">Part One · Coding Superpowers · Chapter 8</p>
+    <h2>Variables 📦</h2>
+    <p class="chapter-tagline">A named box that holds something.</p>
+  </div>
+
+  <div class="chapter-story">
+    <p>
+      A <strong>variable</strong> is a <strong>named box</strong> that holds something for you.
+      The name stays the same, but what is inside can change.
+    </p>
+    <p>
+      Think of your <strong>cubby</strong> at school. It has your name on it. On Monday you put
+      your coat inside. On Tuesday you put your hat inside. The name on the cubby never changes
+      — but the thing inside it does. That is a variable!
+    </p>
+    <p>
+      Or think of a jar labeled <strong>"snacks"</strong> 🍪. Today it might hold apple slices.
+      Tomorrow it might hold crackers. You just say "the snack jar" and everyone knows exactly
+      which jar you mean.
+    </p>
+    <p>
+      Other everyday variables: your lunchbox (holds lunch — but a different lunch each day),
+      your piggy bank 🐷 (holds coins — but the amount keeps changing), and "today's weather"
+      (sunny 🌞 one day, rainy 🌧️ the next, but always called "today's weather").
+    </p>
+  </div>
+
+  <div class="chapter-ideas">
+    <h3>Key Ideas</h3>
+    <ul>
+      <li>A <strong>variable</strong> is a named box that holds something.</li>
+      <li>The name stays the same; what is inside can change.</li>
+      <li>Labels help us find things fast.</li>
+      <li>Your cubby, lunchbox, and piggy bank are like variables.</li>
+    </ul>
+  </div>
+
+  <div class="chapter-questions">
+    <h3>Try It Yourself</h3>
+    <ol>
+      <li>What is a variable?
+        <details><summary>Show answer</summary><p>A named box that holds something. 📦</p></details>
+      </li>
+      <li>Can what is inside a variable change?
+        <details><summary>Show answer</summary><p>Yes! The name stays the same, but what is inside can change. 🔄</p></details>
+      </li>
+      <li>Name something at home that is like a variable.
+        <details><summary>Show answer</summary><p>Any labeled container works — a cookie jar, your cubby, a pencil case, a piggy bank. 🏷️</p></details>
+      </li>
+    </ol>
+  </div>
+
+  <nav class="book-nav">
+    <button class="nav-button secondary" onclick="goToPage(10)">← Chapter 7: Function</button>
+    <button class="nav-button" onclick="goToPage(12)">The Big Takeaway →</button>
+  </nav>
+</section>
+
+<!-- ==================== PAGE 13: GLOSSARY / TAKEAWAY ==================== -->
+<section class="book-page chapter-page" id="glossary" data-page-index="12">
+  <div class="chapter-header">
+    <p class="chapter-part">Glossary · Wrap-Up</p>
+    <h2>The Big Takeaway 🌟</h2>
+    <p class="chapter-tagline">Your eight coding superpowers — you already use them every day.</p>
+  </div>
+
+  <div class="chapter-story">
+    <p>
+      Here are your <strong>eight coding superpowers</strong>. Every concept has a simple,
+      kid-friendly meaning, an everyday example, and a no-tech activity you can do right in the
+      classroom. No computers needed — just your brain, your friends, and your everyday routines.
+    </p>
+  </div>
+
+  <dl class="glossary-list">
+    <dt>Algorithm 🥪</dt>
+    <dd>Steps in order to get a job done.</dd>
+    <dt>Sequence 📖</dt>
+    <dd>The order of the steps — and why it matters.</dd>
+    <dt>Debugging 🐛</dt>
+    <dd>Finding a mistake and fixing it.</dd>
+    <dt>Loop 🔁</dt>
+    <dd>Doing something again and again until you stop.</dd>
+    <dt>Branch 🌳</dt>
+    <dd>An if / then choice — one path or the other.</dd>
+    <dt>Decomposition 🧩</dt>
+    <dd>Breaking a big job into little steps.</dd>
+    <dt>Function 🎁</dt>
+    <dd>One name for a whole bunch of steps.</dd>
+    <dt>Variables 📦</dt>
+    <dd>A named box that holds something.</dd>
+  </dl>
+
+  <p class="cheer">🎉 You are a coder! Keep noticing your everyday code! 🎉</p>
+
+  <nav class="book-nav">
+    <button class="nav-button secondary" onclick="goToPage(11)">← Chapter 8: Variables</button>
+    <button class="nav-button" onclick="goToPage(13)">Close the book →</button>
+  </nav>
+</section>
+
+<!-- ==================== PAGE 14: BACK COVER ==================== -->
+<section class="book-page cover-page back-cover" id="back" data-page-index="13">
+  <div class="cover-content">
+    <p class="cover-series">The End</p>
+    <h1>You are a<br>coder now. 🌟</h1>
+    <p class="cover-subtitle">Eight concepts learned.<br>Eight everyday superpowers.</p>
+    <p class="closing-line">Keep building. Keep noticing.</p>
+    <nav class="book-nav">
+      <button class="nav-button" onclick="goToPage(0)">↺ Begin Again</button>
+    </nav>
+    <p class="cover-credit">
+      By<br>
+      <a href="https://agunechemba.name.ng" target="_blank" rel="noopener">Agunechemba Ekene</a>
+    </p>
+    <p class="cover-note" style="margin-top:28px;">
+      <em>8 Coding Concepts</em>,
+      with gratitude for its warm, playful explanation
+    </p>
+  </div>
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
