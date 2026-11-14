@@ -217,6 +217,10 @@ li { margin-bottom: .35em; }
 }
 .chapter-questions h3 { margin-top: 0; color: var(--accent-2); }
 
+/* ---------- True / False answer styling ---------- */
+.tf-true  { color: var(--accent-2); font-weight: 700; }
+.tf-false { color: var(--accent-dark); font-weight: 700; }
+
 /* ---------- Code blocks ---------- */
 pre.code-example {
   background: var(--code-bg);
